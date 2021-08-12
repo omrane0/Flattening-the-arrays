@@ -1,0 +1,13 @@
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
+
+newarr = arr.reshape(3, 3)
+
+print(newarr)
+
+
+
+Traceback (most recent call last):
+  File "demo_numpy_array_reshape_error.py", line 5, in <module>
+ValueError: cannot reshape array of size 8 into shape (3,3)
